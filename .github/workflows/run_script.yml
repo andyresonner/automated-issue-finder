@@ -22,7 +22,10 @@ jobs:
           python-version: '3.10'
 
       - name: Install dependencies
-        run: pip install requests pandas tabulate # tabulate is needed for to_markdown
+        run: pip install requests pandas pytest # Add pytest
+
+      - name: Run tests with pytest
+        run: pytest # NEW STEP: Run tests
 
       - name: Run issue finding script
         env:
@@ -36,4 +39,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update daily issues and README"
-          file_pattern: "issues.csv README.md" # Watch both files for changes
+          file_pattern: "issues.csv README.md"
