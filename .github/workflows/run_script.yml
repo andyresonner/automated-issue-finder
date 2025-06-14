@@ -1,0 +1,33 @@
+name: Daily Issue Finder
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 8 * * *' # Runs at 8:00 AM UTC every day
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install requests pandas
+
+      - name: Run Python script
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: python find_issues.py
+
+      - name: Commit and push if it changed
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update daily issues"
+          file_pattern: issues.csv
