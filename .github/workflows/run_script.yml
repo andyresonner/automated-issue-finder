@@ -3,7 +3,11 @@ name: Daily Issue Finder
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 8 * * *' # Runs at 8:00 AM UTC every day
+    - cron: '0 8 * * *'
+
+# Add this permissions block to allow writing to the repo
+permissions:
+  contents: write
 
 jobs:
   build:
