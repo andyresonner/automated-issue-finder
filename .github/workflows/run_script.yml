@@ -5,7 +5,6 @@ on:
   schedule:
     - cron: '0 8 * * *'
 
-# Add this permissions block to allow writing to the repo
 permissions:
   contents: write
 
@@ -23,15 +22,18 @@ jobs:
           python-version: '3.10'
 
       - name: Install dependencies
-        run: pip install requests pandas
+        run: pip install requests pandas tabulate # tabulate is needed for to_markdown
 
-      - name: Run Python script
+      - name: Run issue finding script
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: python find_issues.py
 
+      - name: Update README.md
+        run: python update_readme.py
+
       - name: Commit and push if it changed
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Update daily issues"
-          file_pattern: issues.csv
+          commit_message: "Update daily issues and README"
+          file_pattern: "issues.csv README.md" # Watch both files for changes
