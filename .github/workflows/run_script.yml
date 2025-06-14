@@ -22,10 +22,11 @@ jobs:
           python-version: '3.10'
 
       - name: Install dependencies
-        run: pip install requests pandas pytest # Add pytest
+        # The only change is adding 'tabulate' here
+        run: pip install requests pandas pytest tabulate
 
       - name: Run tests with pytest
-        run: pytest # NEW STEP: Run tests
+        run: pytest
 
       - name: Run issue finding script
         env:
