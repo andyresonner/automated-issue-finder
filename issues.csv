@@ -1,10 +1,10 @@
 repository,title,url,created_at
+microsoft/vscode,"Disabled and enabled (workspace) extension Disable button dropdown contains both ""Disable"" and ""Disable (Workspace)"" items",https://github.com/microsoft/vscode/issues/244138,2025-03-20
 microsoft/vscode,Web: `detectFullscreen` false positive on a display without dock and title area,https://github.com/microsoft/vscode/issues/229058,2024-09-19
 microsoft/vscode,Terminal Icon picker weird placement,https://github.com/microsoft/vscode/issues/211083,2024-04-23
 microsoft/vscode,Restart Extensions button not created when disabling extensions from Running Extensions view,https://github.com/microsoft/vscode/issues/250201,2025-05-31
 microsoft/vscode,Go to symbol in workspace shortcut in Codespaces (browser) is CTRL-T.,https://github.com/microsoft/vscode/issues/232381,2024-10-28
 microsoft/vscode,Improve alignment of text and icons in status bar,https://github.com/microsoft/vscode/issues/162995,2022-10-07
-microsoft/vscode,"Disabled and enabled (workspace) extension Disable button dropdown contains both ""Disable"" and ""Disable (Workspace)"" items",https://github.com/microsoft/vscode/issues/244138,2025-03-20
 microsoft/vscode,Git - Removing a folder from multi-root workspace does not remove repo,https://github.com/microsoft/vscode/issues/108757,2020-10-15
 microsoft/vscode,add hoverForeground and hoverBackground to activity bars,https://github.com/microsoft/vscode/issues/210694,2024-04-18
 microsoft/vscode,Support `XDG_CONFIG_HOME` for the `argv.json` file,https://github.com/microsoft/vscode/issues/162712,2022-10-05
