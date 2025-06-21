@@ -19,10 +19,10 @@ kubernetes/kubernetes,Add missing docs for x-kubernetes openapi fields,https://g
 kubernetes/kubernetes,NetworkPolicy tests for blocking north/south traffic,https://github.com/kubernetes/kubernetes/issues/114369,2022-12-08
 kubernetes/kubernetes,"Write the stress test for gRPC, http, and tcp probes",https://github.com/kubernetes/kubernetes/issues/115782,2023-02-15
 kubernetes/kubernetes,Kubelet should enforce that static pods do not reference other API objects,https://github.com/kubernetes/kubernetes/issues/103587,2021-07-08
-firstcontributions/first-contributions,Remove slack link in Egyptian Arabic translation,https://github.com/firstcontributions/first-contributions/issues/94134,2025-02-09
 firstcontributions/first-contributions,Remove slack link in Czech translation,https://github.com/firstcontributions/first-contributions/issues/94087,2025-02-08
+firstcontributions/first-contributions,Remove slack link in Bulgarian translation,https://github.com/firstcontributions/first-contributions/issues/94529,2025-02-19
+firstcontributions/first-contributions,Remove slack link in Egyptian Arabic translation,https://github.com/firstcontributions/first-contributions/issues/94134,2025-02-09
 firstcontributions/first-contributions,Remove slack link in Albanian translation,https://github.com/firstcontributions/first-contributions/issues/94524,2025-02-19
 firstcontributions/first-contributions,Remove slack link in Deutsch translation,https://github.com/firstcontributions/first-contributions/issues/94534,2025-02-19
-firstcontributions/first-contributions,Remove slack link in Bulgarian translation,https://github.com/firstcontributions/first-contributions/issues/94529,2025-02-19
 firstcontributions/first-contributions,Remove slack link in Uzbek translation,https://github.com/firstcontributions/first-contributions/issues/94526,2025-02-19
 firstcontributions/first-contributions,Remove slack link in Armenian translation,https://github.com/firstcontributions/first-contributions/issues/94525,2025-02-19
