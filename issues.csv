@@ -9,6 +9,7 @@ microsoft/vscode,Improve alignment of text and icons in status bar,https://githu
 microsoft/vscode,Web: `detectFullscreen` false positive on a display without dock and title area,https://github.com/microsoft/vscode/issues/229058,2024-09-19
 microsoft/vscode,Terminal Icon picker weird placement,https://github.com/microsoft/vscode/issues/211083,2024-04-23
 microsoft/vscode,Git - Removing a folder from multi-root workspace does not remove repo,https://github.com/microsoft/vscode/issues/108757,2020-10-15
+kubernetes/kubernetes,Reuse the http request object for http probes,https://github.com/kubernetes/kubernetes/issues/115939,2023-02-21
 kubernetes/kubernetes,tracker: improve the kubelet test coverage,https://github.com/kubernetes/kubernetes/issues/109717,2022-04-29
 kubernetes/kubernetes,Add missing docs for x-kubernetes openapi fields,https://github.com/kubernetes/kubernetes/issues/131724,2025-05-12
 kubernetes/kubernetes,Clean up circular dependencies around the kubelet's admitHandlers and the container runtime,https://github.com/kubernetes/kubernetes/issues/132298,2025-06-13
@@ -16,7 +17,6 @@ kubernetes/kubernetes,Quiet `git worktree add` in `hack/verify-govulncheck.sh`,h
 kubernetes/kubernetes,Give an indication in container events for probe failure as to whether the failure was ignored due to FailureThreshold,https://github.com/kubernetes/kubernetes/issues/115823,2023-02-16
 kubernetes/kubernetes,API documentation incorrectly states that resizePolicy can be set to ephemeral containers,https://github.com/kubernetes/kubernetes/issues/128384,2024-10-28
 kubernetes/kubernetes,"`failed to garbage collect required amount of images. Wanted to free 473842483 bytes, but freed 0 bytes`",https://github.com/kubernetes/kubernetes/issues/71869,2018-12-08
-kubernetes/kubernetes,Reuse the http request object for http probes,https://github.com/kubernetes/kubernetes/issues/115939,2023-02-21
 kubernetes/kubernetes,NetworkPolicy tests for blocking north/south traffic,https://github.com/kubernetes/kubernetes/issues/114369,2022-12-08
 kubernetes/kubernetes,"Write the stress test for gRPC, http, and tcp probes",https://github.com/kubernetes/kubernetes/issues/115782,2023-02-15
 firstcontributions/first-contributions,Remove slack link in Czech translation,https://github.com/firstcontributions/first-contributions/issues/94087,2025-02-08
